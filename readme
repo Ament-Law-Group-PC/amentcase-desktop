@@ -1,0 +1,55 @@
+# AmentCase Desktop
+
+The Windows companion app for **AmentCase**, the practice-management
+system used at Ament Law Group, P.C.
+
+This repository is the official **download and auto-update home** for the
+desktop app. The application's source code is maintained privately; only
+the published installers are distributed here so the app can check for
+and download updates.
+
+## Download & install
+
+1. Open the [**latest release**](../../releases/latest).
+2. Download **`AmentCaseDesktop-Setup.exe`**.
+3. Run it. The installer is per-user and needs no administrator rights.
+4. Sign in with your AmentCase credentials on first launch.
+
+Windows may show a SmartScreen prompt the first time (the installer is
+unsigned). Choose **More info → Run anyway**.
+
+## What the app does
+
+- **Passive time tracking** — quietly records time against the matter
+  you're working in, so billable work isn't lost.
+- **AmentCase (V:) drive** — mounts your matter documents as a Windows
+  drive. Open and edit files in Word; saves go straight back to the
+  matter vault as new versions.
+- **One-click integrations** — sets up the Word add-in and document
+  workflows for your account.
+- **Quick actions** — log calls, scan, dictate, and file documents from
+  the tray.
+
+## Automatic updates
+
+The app checks this repository for new releases and notifies you when an
+update is available. You can also check any time from the tray menu →
+**Check for updates…**. Installing a newer release over an existing one
+preserves your settings.
+
+## Versioning
+
+Releases are tagged `vYYYY.MM.DD[.n]` (the date published, with a counter
+for multiple releases in a day). The tray menu and **Apps & features**
+both show the installed version.
+
+## Support
+
+Staff: contact the firm's IT/admin channel for help, or email
+**support@amentcase.com**.
+
+---
+
+© Ament Law Group, P.C. The AmentCase Desktop application is proprietary.
+This repository hosts distributable installers only; it does not contain
+application source code.
