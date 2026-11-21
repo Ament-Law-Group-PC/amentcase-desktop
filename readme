@@ -15,8 +15,15 @@ and download updates.
 3. Run it. The installer is per-user and needs no administrator rights.
 4. Sign in with your AmentCase credentials on first launch.
 
-Windows may show a SmartScreen prompt the first time (the installer is
-unsigned). Choose **More info → Run anyway**.
+The installer is digitally signed by **Ament Law Group, PC**. To check a
+download before running it, right-click the file, choose **Properties**,
+and open the **Digital Signatures** tab: the signer should be
+"Ament Law Group, PC". If that tab is missing or names anyone else, do not
+run the file; tell the firm's IT/admin channel.
+
+Windows may still show a SmartScreen prompt for a newly published
+release. The prompt names the publisher. Continue only when it reads
+**Ament Law Group, PC**.
 
 ## What the app does
 
@@ -35,12 +42,15 @@ unsigned). Choose **More info → Run anyway**.
 The app checks this repository for new releases and notifies you when an
 update is available. You can also check any time from the tray menu →
 **Check for updates…**. Installing a newer release over an existing one
-preserves your settings.
+preserves your settings. Before it runs a downloaded update, the app
+checks that the installer is signed by Ament Law Group, PC.
 
 ## Versioning
 
-Releases are tagged `vYYYY.MM.DD[.n]` (the date published, with a counter
-for multiple releases in a day). The tray menu and **Apps & features**
+Releases are tagged `vYYYY.MM.DD.NN` (the date published, then a two-digit
+counter for the releases cut that day). Some older releases were tagged
+in other orders; the app reads all of them and only installs a release
+newer than the one it is running. The tray menu and **Apps & features**
 both show the installed version.
 
 ## Support
